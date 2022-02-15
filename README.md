@@ -11,6 +11,7 @@
 **Step-by-step instruction: https://gist.github.com/AlexandraKapp/e0eee2beacc93e765113aff43ec77789**
 
 **Docker Install (Windows): https://docs.docker.com/desktop/windows/install/**
+**Enable HYPER-V: https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v**
 
 Notes:
 - Increase RAM: Settings -> Resources -> ADVANCED -> Memory
