@@ -10,6 +10,8 @@
 
 **Step-by-step instruction: https://gist.github.com/AlexandraKapp/e0eee2beacc93e765113aff43ec77789**
 
+**Docker Install (Windows): https://docs.docker.com/desktop/windows/install/**
+
 Notes:
 - Increase RAM: Settings -> Resources -> ADVANCED -> Memory
 - It is most likely to have "[INPUT ERROR]" when you first time running "docker run -t -v c:/docker:/data osrm/osrm-backend osrm-extract -p /opt/car.lua /data/us-northeast-latest.osm.pbf". Not a big deal -- Drag us-northeast-latest.osm.pbf into c:/docker (which was just created by the command), and Run the command again
