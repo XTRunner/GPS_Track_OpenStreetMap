@@ -133,6 +133,7 @@ def main():
 
                 for line in lines:
                     if line.strip():
+                        # I forgot to add delimiter in the previous code... My bad
                         lat, lon = line.split('-')
                         path.append((float(lat), -float(lon)))
 
@@ -145,7 +146,7 @@ def main():
             # matched_path = []
 
             if 'tracepoints' in parsed:
-                with open('tracks_matched/' + file + '.txt', 'a') as f:
+                with open('tracks_matched/' + file, 'a') as f:
                     for idx, element in enumerate(parsed['tracepoints']):
                         # tracepoints - location - [lon, lat]
                         # matched_path.append((element['location'][1], element['location'][0]))
