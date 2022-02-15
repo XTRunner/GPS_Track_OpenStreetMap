@@ -134,8 +134,8 @@ def main():
                 for line in lines:
                     if line.strip():
                         # I forgot to add delimiter in the previous code... My bad
-                        lat, lon = line.split('-')
-                        path.append((float(lat), -float(lon)))
+                        lat, lon = line.split(',')
+                        path.append((float(lat), float(lon)))
 
             result = map_match_osrm(path)
 

@@ -35,7 +35,7 @@ def parse_xml(xml_text, track_counter):
         with open('tracks_OSM/' + str(file_name) + '.txt', 'a') as f:
             for trkpt in trk.findall(selector_lat_lon):
                 lat, lon = trkpt.attrib['lat'], trkpt.attrib['lon']
-                f.writelines([lat, lon])
+                f.writelines([lat, ', ', lon])
                 f.writelines('\n')
 
         f.close()
