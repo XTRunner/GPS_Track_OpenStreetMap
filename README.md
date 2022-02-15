@@ -10,6 +10,8 @@
 
 **Step-by-step instruction: https://gist.github.com/AlexandraKapp/e0eee2beacc93e765113aff43ec77789**
 
+**Northeast region of North America can be downloaded from http://download.geofabrik.de/north-america.html**
+
 **Docker Install (Windows): https://docs.docker.com/desktop/windows/install/**
 
 **Enable HYPER-V: https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v**
