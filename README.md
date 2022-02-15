@@ -9,3 +9,6 @@
 **Due to the contraints of the demo server from OSRM (http://project-osrm.org/), please setup local server before running the script**
 
 **Step-by-step instruction: https://gist.github.com/AlexandraKapp/e0eee2beacc93e765113aff43ec77789**
+
+Notes:
+- Increase RAM: Settings -> Resources -> ADVANCED -> Memory
