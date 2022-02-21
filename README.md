@@ -9,15 +9,15 @@
   - Assume we set <code>track_count_per_area</code> to 100 and <code>left</code> & <code>right</code> & <code>bottom</code> & <code>top</code> to -70.5 & -70 & 40 & 40.75, then we will eventually have 2x3=6 sub bounding-box and 100x6=600 GPS tracks
 
 ### MapMatchOSM.py: Match GPS trackpoints to OpenStreetMap
-**Due to the contraints of the demo server from OSRM (http://project-osrm.org/), please setup local server before running the script**
+- **Due to the contraints of the demo server from OSRM (http://project-osrm.org/), please setup local server before running the script**
 
-**Step-by-step instruction: https://gist.github.com/AlexandraKapp/e0eee2beacc93e765113aff43ec77789**
+- **Step-by-step instruction: https://gist.github.com/AlexandraKapp/e0eee2beacc93e765113aff43ec77789**
 
-**The map of Northeast region of North America can be downloaded from http://download.geofabrik.de/north-america.html**
+- **The map of Northeast region of North America can be downloaded from http://download.geofabrik.de/north-america.html**
 
-**Docker Install (Windows): https://docs.docker.com/desktop/windows/install/**
+- **Docker Install (Windows): https://docs.docker.com/desktop/windows/install/**
 
-**Enable HYPER-V: https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v**
+- **Enable HYPER-V: https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v**
 
 Notes (necessary for our experiments):
 - Increase RAM: Settings -> Resources -> ADVANCED -> Memory
