@@ -20,5 +20,5 @@
 
 Notes:
 - Increase RAM: Settings -> Resources -> ADVANCED -> Memory
-- It is most likely to have "[INPUT ERROR]" when you first time running <code>docker run -t -v c:/docker:/data osrm/osrm-backend osrm-extract -p /opt/car.lua /data/us-northeast-latest.osm.pbf</code>. Not a big deal -- Drag us-northeast-latest.osm.pbf into c:/docker (which was just created by the command), and Run the command again
+- It is most likely to have "[INPUT ERROR]" when first time running <code>docker run -t -v c:/docker:/data osrm/osrm-backend osrm-extract -p /opt/car.lua /data/us-northeast-latest.osm.pbf</code>. Not a big deal -- Drag us-northeast-latest.osm.pbf into c:/docker (which was just created by the command), and Run the command again
 - Add max-matching-size param: <code>docker run --name osrm -t -i -p 5000:5000 -v c:/docker:/data osrm/osrm-backend osrm-routed --max-matching-size 50000 --algorithm mld /data/us-northeast-latest.osrm</code>
