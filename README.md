@@ -19,7 +19,7 @@
 
 - **Enable HYPER-V: https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v**
 
-Notes (necessary for our experiments):
-- Increase RAM: Settings -> Resources -> ADVANCED -> Memory
-- It is most likely to have "[INPUT ERROR]" when first time running <code>docker run -t -v c:/docker:/data osrm/osrm-backend osrm-extract -p /opt/car.lua /data/us-northeast-latest.osm.pbf</code>. Not a big deal - Drag <code>us-northeast-latest.osm.pbf</code> into <code>c:/docker</code> (or under the other FILE SHARING folder you setup earlier) which was just created by the command, and Run the command again
-- Add max-matching-size param: <code>docker run --name osrm -t -i -p 5000:5000 -v c:/docker:/data osrm/osrm-backend osrm-routed --max-matching-size 50000 --algorithm mld /data/us-northeast-latest.osrm</code>
+- Notes (necessary for our experiments):
+  - Increase RAM: Settings -> Resources -> ADVANCED -> Memory
+  - It is most likely to have "[INPUT ERROR]" when first time running <code>docker run -t -v c:/docker:/data osrm/osrm-backend osrm-extract -p /opt/car.lua /data/us-northeast-latest.osm.pbf</code>. Not a big deal - Drag <code>us-northeast-latest.osm.pbf</code> into <code>c:/docker</code> (or under the other FILE SHARING folder you setup earlier) which was just created by the command, and Run the command again
+  - Add max-matching-size param: <code>docker run --name osrm -t -i -p 5000:5000 -v c:/docker:/data osrm/osrm-backend osrm-routed --max-matching-size 50000 --algorithm mld /data/us-northeast-latest.osrm</code>
